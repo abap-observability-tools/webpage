@@ -19,7 +19,9 @@ jobs:
       
       -
         name: build gatsby
-        run: npm run build
+        run: |
+          npm ci
+          npm run build
 
       -
         name: Deploy to GitHub Pages
