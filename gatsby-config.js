@@ -1,7 +1,7 @@
 const siteMetadata = require('./site-metadata.json')
 
 module.exports = {
-    pathPrefix: '/mighty-europa-5184e',
+    pathPrefix: '/',
     siteMetadata: siteMetadata,
     plugins: [
         `gatsby-plugin-react-helmet`,
