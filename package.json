@@ -34,5 +34,8 @@
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
     "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
