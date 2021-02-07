@@ -16,6 +16,10 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v2
+      
+      -
+        name: build gatsby
+        run: npm run build
 
       -
         name: Deploy to GitHub Pages
