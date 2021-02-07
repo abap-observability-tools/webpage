@@ -1,5 +1,5 @@
 ---
-title: Home jk
+title: Home
 sections:
   - type: hero_section
     title: abap observabillity tools
