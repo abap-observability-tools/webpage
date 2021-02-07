@@ -1,7 +1,7 @@
 const siteMetadata = require('./site-metadata.json')
 
 module.exports = {
-    pathPrefix: '/',
+    pathPrefix: '/webpage',
     siteMetadata: siteMetadata,
     plugins: [
         `gatsby-plugin-react-helmet`,
