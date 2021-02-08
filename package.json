@@ -28,7 +28,7 @@
     "node-sass": "^4.11.0",
     "node-sass-utils": "^1.1.2",
     "react": "^16.14.0",
-    "react-dom": "^16.5.1",
+    "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-html-parser": "^2.0.2",
     "react-script-tag": "^1.1.2",
