@@ -14,7 +14,7 @@
     "@stackbit/gatsby-plugin-menus": "0.0.4",
     "chokidar": "^3.5.1",
     "classnames": "^2.2.6",
-    "fs-extra": "^7.0.1",
+    "fs-extra": "^9.1.0",
     "gatsby": "2.22.17",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-react-helmet": "^3.3.3",
