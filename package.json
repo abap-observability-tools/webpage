@@ -1,6 +1,6 @@
 {
-  "name": "stackbit-starter-theme",
-  "description": "Stackbit Starter Theme",
+  "name": "abap-observability-tools",
+  "description": "Website for abap-observability-tools",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
