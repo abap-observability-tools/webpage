@@ -14,7 +14,7 @@ sections:
         url: /contact
         style: secondary
     align: left
-    image: images/hero.svg
+    image: images/abap-observability-tools.png
     image_alt: Hero placeholder image
     image_position: right
     has_background: true
@@ -33,7 +33,7 @@ sections:
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla.
         align: left
-        image: images/tool.svg
+        image: images/abap-metrics-provider.png
         image_alt: tool 1 placeholder image
         image_position: right
         actions:
@@ -46,7 +46,7 @@ sections:
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
           euismod lacinia.
         align: left
-        image: images/tool.svg
+        image: images/abap-log-exporter.png
         image_alt: tool 2 placeholder image
         image_position: left
         actions:
@@ -59,7 +59,7 @@ sections:
           eget nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in
           ante.
         align: left
-        image: images/tool.svg
+        image: images/abap-trace-tender.png
         image_alt: tool 3 placeholder image
         image_position: right
         actions:
