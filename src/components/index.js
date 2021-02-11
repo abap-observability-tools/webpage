@@ -14,6 +14,7 @@ import HeroSection from './HeroSection';
 import SectionActions from './SectionActions';
 import TeamSection from './TeamSection';
 import Layout from './Layout';
+import Video from './Video';
 
 export {
     Action,
@@ -31,7 +32,8 @@ export {
     HeroSection,
     SectionActions,
     TeamSection,
-    Layout
+    Layout,
+    Video
 };
 
 export default {
@@ -50,5 +52,6 @@ export default {
     HeroSection,
     SectionActions,
     TeamSection,
-    Layout
+    Layout,
+    Video
 };

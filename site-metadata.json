@@ -1,5 +1,5 @@
 {
-    "description": "An ultra customizable generic theme for Stackbit",
+    "description": "abap-pbservability-tools navigation",
     "header": {
         "title": "Starter",
         "has_nav": true,
@@ -7,6 +7,11 @@
             {
                 "label": "Tools",
                 "url": "/tools",
+                "style": "link"
+            },
+            {
+                "label": "abap-metrics-provider",
+                "url": "/abap-metrics-provider",
                 "style": "link"
             },
             {
