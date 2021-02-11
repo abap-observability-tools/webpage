@@ -10,9 +10,6 @@ sections:
       - label: Learn More
         url: /tools
         style: primary
-      - label: Contact Us
-        url: /contact
-        style: secondary
     align: left
     image: images/abap-observability-tools.png
     image_alt: Hero placeholder image
