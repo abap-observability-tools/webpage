@@ -23,22 +23,12 @@
                 "label": "Style Guide",
                 "url": "/style-guide",
                 "style": "link"
-            },
-            {
-                "label": "Contact Us",
-                "url": "/contact",
-                "style": "primary"
             }
         ]
     },
     "footer": {
         "has_nav": true,
         "nav_links": [
-            {
-                "label": "Contact Us",
-                "url": "/contact",
-                "style": "link"
-            },
             {
                 "label": "Privacy and Terms",
                 "url": "/terms",
