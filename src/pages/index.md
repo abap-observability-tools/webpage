@@ -35,7 +35,7 @@ sections:
         image_position: right
         actions:
           - label: Learn More
-            url: /tools
+            url: /abap-metrics-provider
             style: secondary
       - title: abap log exporter
         content: >-
