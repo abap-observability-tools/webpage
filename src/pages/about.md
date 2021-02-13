@@ -26,7 +26,7 @@ sections:
       - src/data/team/eleanor-carr.yaml
       - src/data/team/hanson-deck.yaml
       - src/data/team/gordon-norman.yaml
-  - type: cta_section
+  - type: image_section
     title: Join the Team
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     has_background: true

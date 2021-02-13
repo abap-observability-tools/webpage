@@ -67,16 +67,19 @@ sections:
     title: What's New
     show_recent: true
     recent_count: 3
-  - type: cta_section
-    title: This Is A CTA
+  - type: image_section
+    title: Created on GitHub
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      To view the code click on the Octocat
     actions:
       - label: Learn More
-        url: /tools
+        url: https://github.com/abap-observability-tools
         style: primary
+        new_window: true
     has_background: true
     background_color: gray
+    image: images/Octocat.jpg
+    image_alt: tool 2 placeholder image
+    image_position: left
 template: advanced
 ---
