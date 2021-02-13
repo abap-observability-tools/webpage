@@ -15,6 +15,16 @@
                 "style": "link"
             },
             {
+                "label": "abap-log-exporter",
+                "url": "/abap-log-exporter",
+                "style": "link"
+            },
+            {
+                "label": "abap-trace-tender",
+                "url": "/abap-trace-tender",
+                "style": "link"
+            },
+            {
                 "label": "Blog",
                 "url": "/blog",
                 "style": "link"
