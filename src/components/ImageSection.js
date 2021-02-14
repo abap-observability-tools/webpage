@@ -2,7 +2,6 @@ import React from 'react';
 import _ from 'lodash';
 
 import { classNames, withPrefix } from '../utils';
-import SectionActions from './SectionActions';
 
 export default class ImageSection extends React.Component {
   render() {
@@ -25,7 +24,7 @@ export default class ImageSection extends React.Component {
                 </div>
               )}
               <div className={classNames('cell', 'section__media', { 'section__media--right': _.get(section, 'image_position', null) === 'right' })}>
-              <a href={url} target="_blank"><img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} /></a>
+              <a href={url} target="_blank" rel="noreferrer"><img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} /></a>
               </div>
             </div>
           </div>

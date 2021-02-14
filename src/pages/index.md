@@ -2,14 +2,9 @@
 title: Home
 sections:
   - type: hero_section
-    title: abap observabillity tools
+    title: abap-observabillity-tools
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
-    actions:
-      - label: Learn More
-        url: /tools
-        style: primary
+      The abap-observability-tools are a set of tools for metrics, logs and traces.
     align: left
     image: images/abap-observability-tools.png
     image_alt: Hero placeholder image
@@ -22,7 +17,7 @@ sections:
       background_image_size: auto
       background_image_repeat: repeat
   - type: tools_section
-    title: abap observabillity tools
+    title: abap-observabillity-tools
     tools:
       - title: abap metrics provider
         content: >-
@@ -37,7 +32,7 @@ sections:
           - label: Learn More
             url: /abap-metrics-provider
             style: secondary
-      - title: abap log exporter
+      - title: abap-log-exporter
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
