@@ -1,14 +1,9 @@
 {
-    "description": "abap-pbservability-tools navigation",
+    "description": "abap-observability-tools navigation",
     "header": {
         "title": "Starter",
         "has_nav": true,
         "nav_links": [
-            {
-                "label": "Tools",
-                "url": "/tools",
-                "style": "link"
-            },
             {
                 "label": "abap-metrics-provider",
                 "url": "/abap-metrics-provider",

@@ -271,7 +271,6 @@ models:
             - contact_section
             - content_section
             - image_section
-            - tools_section
             - hero_section
             - team_section
             - video
@@ -372,22 +371,6 @@ models:
           - right
         default: left
         description: The position of the image
-  tools_section:
-    type: object
-    label: Tools Section
-    labelField: title
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The title of the section
-      - type: list
-        name: tools
-        label: Tools
-        items:
-          type: model
-          models:
-            - tools
   hero_section:
     type: object
     label: Hero Section
@@ -493,51 +476,6 @@ models:
           type: reference
           models:
             - person
-  tools:
-    type: object
-    label: Tools
-    labelField: title
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The title of the feature
-      - type: markdown
-        name: content
-        label: Content
-        description: The text content of the tools
-      - type: enum
-        name: align
-        label: Align
-        options:
-          - left
-          - right
-          - center
-        default: left
-        description: The alignment of the text content
-      - type: image
-        name: image
-        label: Image
-        description: The image of the tool
-      - type: string
-        name: image_alt
-        label: Image Alt Text
-        description: The alt text of the image
-      - type: enum
-        name: image_position
-        label: Image Position
-        options:
-          - left
-          - right
-        default: left
-        description: The position of the image
-      - type: list
-        name: actions
-        label: Action Buttons
-        items:
-          type: model
-          models:
-            - action
   action:
     type: object
     label: Action
