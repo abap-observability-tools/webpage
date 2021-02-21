@@ -16,7 +16,7 @@
     "classnames": "^2.2.6",
     "fs-extra": "^9.1.0",
     "gatsby": "2.22.17",
-    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-source-filesystem": "2.11.0",
     "gatsby-transformer-remark": "^2.16.0",
