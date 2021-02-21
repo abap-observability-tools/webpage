@@ -19,7 +19,7 @@ sections:
   - type: tools_section
     title: abap-observabillity-tools
     tools:
-      - title: abap metrics provider
+      - title: abap-metrics-provider
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -43,9 +43,9 @@ sections:
         image_position: left
         actions:
           - label: Learn More
-            url: /tools
+            url: /abap-log-exporter
             style: secondary
-      - title: abap trace tender
+      - title: abap-trace-tender
         content: >-
           Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus
           eget nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in
@@ -56,7 +56,7 @@ sections:
         image_position: right
         actions:
           - label: Learn More
-            url: /tools
+            url: /abap-trace-tender
             style: secondary
   - type: blog_feed_section
     title: What's New
