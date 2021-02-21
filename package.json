@@ -16,7 +16,7 @@
     "classnames": "^2.2.6",
     "fs-extra": "^9.1.0",
     "gatsby": "2.22.17",
-    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-source-filesystem": "2.11.0",
     "gatsby-transformer-remark": "^2.16.0",
@@ -31,7 +31,7 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-html-parser": "^2.0.2",
-    "react-player": "^2.8.2",
+    "react-player": "^2.9.0",
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
     "sprintf-js": "^1.1.2"
