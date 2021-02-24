@@ -8,7 +8,7 @@ const _ = require('lodash');
 const metadataFileName = 'site-metadata.json';
 
 const parsers = {
-    yaml: (data) => yaml.safeLoad(data, {schema: yaml.JSON_SCHEMA}),
+    yaml: (data) => yaml.load(data, {schema: yaml.JSON_SCHEMA}),
     json: (data) => JSON.parse(data)
 };
 
