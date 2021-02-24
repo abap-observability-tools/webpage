@@ -85,7 +85,7 @@
     margin-top: auto;
     padding-top: 100%;
     position: relative;
-  
+
     img {
       position: absolute;
       width: 100%;
@@ -97,6 +97,13 @@
 }
 
 .section--image {
+  .bg-blue,
+  .bg-gray {
+    border-radius: 3px;
+  }
+}
+
+.section--sponsoring {
   .bg-blue,
   .bg-gray {
     border-radius: 3px;
