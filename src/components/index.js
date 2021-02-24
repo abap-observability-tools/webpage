@@ -6,6 +6,7 @@ import BlogPostFeedItem from './BlogPostFeedItem';
 import BlogPostTags from './BlogPostTags';
 import ContactSection from './ContactSection';
 import ContentSection from './ContentSection';
+import SponsoringSection from './SponsoringSection';
 import ImageSection from './ImageSection';
 import ToolsSection from './ToolsSection';
 import Footer from './Footer';
@@ -25,6 +26,7 @@ export {
     BlogPostTags,
     ContactSection,
     ContentSection,
+    SponsoringSection,
     ImageSection,
     ToolsSection,
     Footer,
@@ -45,6 +47,7 @@ export default {
     BlogPostTags,
     ContactSection,
     ContentSection,
+    SponsoringSection,
     ImageSection,
     ToolsSection,
     Footer,
