@@ -62,6 +62,10 @@ sections:
     title: What's New
     show_recent: true
     recent_count: 3
+  - type: sponsoring_section
+    title: Support on open collective
+    has_background: true
+    background_color: gray
   - type: image_section
     title: Created on GitHub
     subtitle: >-
