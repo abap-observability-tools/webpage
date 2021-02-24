@@ -270,6 +270,7 @@ models:
             - blog_feed_section
             - contact_section
             - content_section
+            - sponsoring_section
             - image_section
             - hero_section
             - team_section
@@ -322,6 +323,28 @@ models:
         name: content
         label: Content
         description: The text content of the section
+  sponsoring_section:
+    type: object
+    label: Spnsoring Section
+    labelField: title
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the section
+      - type: boolean
+        name: has_background
+        label: Enable section background
+        default: false
+      - type: enum
+        name: background_color
+        label: Background Color
+        options:
+          - white
+          - gray
+          - blue
+        default: white
+        description: The background color of the section
   image_section:
     type: object
     label: Image Section
