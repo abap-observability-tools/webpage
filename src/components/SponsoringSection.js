@@ -17,10 +17,6 @@ export default class SponsoringSection extends React.Component {
 
     render() {
         let section = _.get(this.props, 'section', null);
-        let actions = _.get(section, 'actions', null);
-        let url = _.map(actions, 'url', null);
-        console.log("actions", actions);
-        console.log("url", url);
         return (
             <section className="section section--sponsoring">
                 <div className="container container--lg">
