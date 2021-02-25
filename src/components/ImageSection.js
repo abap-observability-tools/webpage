@@ -8,8 +8,6 @@ export default class ImageSection extends React.Component {
     let section = _.get(this.props, 'section', null);
     let actions = _.get(section, 'actions', null);
     let url = _.map(actions, 'url', null);
-    console.log("actions",actions);
-    console.log("url",url);
     return (
       <section className="section section--image">
         <div className="container container--lg">
