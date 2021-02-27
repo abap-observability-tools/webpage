@@ -44,19 +44,13 @@
         "social_links": [
             {
                 "label": "Twitter",
-                "url": "https://twitter.com/",
+                "url": "https://twitter.com/abapObservTools",
                 "style": "link",
                 "new_window": true
             },
             {
                 "label": "GitHub",
                 "url": "https://github.com/abap-observability-tools",
-                "style": "link",
-                "new_window": true
-            },
-            {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
                 "style": "link",
                 "new_window": true
             }
