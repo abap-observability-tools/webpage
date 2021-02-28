@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactPlayer from "react-player"
+import _ from 'lodash';
 
 export default class Video extends React.Component {
     render() {
+        let section = _.get(this.props, 'section', null);
         return (<div className="container container--md align-center">
             <ReactPlayer
-                url="https://www.youtube.com/watch?v=XV5brOMpzJA" />
-            <br />
-            <ReactPlayer
-                url="https://www.youtube.com/watch?v=K-e9gE_x4oU" />
+                url={section.url} />
             <br />
         </div>)
     }

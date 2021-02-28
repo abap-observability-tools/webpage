@@ -543,3 +543,7 @@ models:
           - left
           - right
           - center
+      - type: string
+        name: url
+        label: URL
+        required: true
