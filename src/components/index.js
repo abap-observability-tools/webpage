@@ -1,9 +1,4 @@
 import Action from './Action';
-import BlogFeedItemFilter from './BlogFeedItemFilter';
-import BlogFeedSection from './BlogFeedSection';
-import BlogPostCategories from './BlogPostCategories';
-import BlogPostFeedItem from './BlogPostFeedItem';
-import BlogPostTags from './BlogPostTags';
 import ContactSection from './ContactSection';
 import ContentSection from './ContentSection';
 import SponsoringSection from './SponsoringSection';
@@ -19,11 +14,6 @@ import Video from './Video';
 
 export {
     Action,
-    BlogFeedItemFilter,
-    BlogFeedSection,
-    BlogPostCategories,
-    BlogPostFeedItem,
-    BlogPostTags,
     ContactSection,
     ContentSection,
     SponsoringSection,
@@ -40,11 +30,6 @@ export {
 
 export default {
     Action,
-    BlogFeedItemFilter,
-    BlogFeedSection,
-    BlogPostCategories,
-    BlogPostFeedItem,
-    BlogPostTags,
     ContactSection,
     ContentSection,
     SponsoringSection,

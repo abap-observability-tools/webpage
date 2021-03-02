@@ -58,10 +58,6 @@ sections:
           - label: Learn More
             url: /abap-trace-tender
             style: secondary
-  - type: blog_feed_section
-    title: What's New
-    show_recent: true
-    recent_count: 3
   - type: sponsoring_section
     title: Support on open collective
     has_background: true
