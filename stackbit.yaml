@@ -9,7 +9,6 @@ dataDir: src/data
 pagesDir: src/pages
 pageLayoutKey: template
 logicFields:
-  - blog_feed_section.recent_count
   - hero_section.background.background_image_opacity
 pageData:
   - pagePath: /
@@ -161,25 +160,6 @@ models:
       - type: markdown
         name: bio
         label: Bio
-  category:
-    type: data
-    label: Category
-    folder: categories
-    labelField: id
-    fields:
-      - type: string
-        name: id
-        label: ID
-        description: 'A unique identifier used when filtering posts, e.g. "news"'
-        required: true
-      - type: string
-        name: link
-        label: Link
-        description: 'The link to the category page, e.g. "blog/category/news"'
-      - type: string
-        name: title
-        label: Title
-        required: true
   page:
     type: page
     label: Page
@@ -195,59 +175,6 @@ models:
         name: excerpt
         label: Excerpt
         description: The excerpt of the page displayed in meta data
-  post:
-    type: page
-    urlPath: '/blog/{slug}'
-    label: Post
-    layout: post
-    folder: blog
-    exclude:
-      - index.md
-      - category/**
-      - author/**
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The title of the post
-        required: true
-      - type: date
-        name: date
-        label: Date
-        description: The publish date of the post
-        required: true
-      - type: reference
-        name: author
-        label: Author
-        description: The author of the post
-        models:
-          - person
-      - type: list
-        name: categories
-        label: Categories
-        description: The categories of the post
-        items:
-          type: reference
-          models:
-            - category
-      - type: list
-        name: tags
-        label: Tags
-        description: The tags of the post
-        items:
-          type: string
-      - type: image
-        name: image
-        label: Tools Image
-        description: The image shown in the blog post and blog feed
-      - type: string
-        name: image_alt
-        label: Featured Image Alt Text
-        description: The alt text of the featured image
-      - type: string
-        name: excerpt
-        label: Excerpt
-        description: The excerpt of the page displayed in the blog feed and meta data
   advanced:
     type: page
     label: Advanced Page
@@ -267,7 +194,6 @@ models:
           type: model
           labelField: title
           models:
-            - blog_feed_section
             - contact_section
             - content_section
             - sponsoring_section
@@ -275,38 +201,6 @@ models:
             - hero_section
             - team_section
             - video
-  blog_feed_section:
-    type: object
-    label: Blog Feed Section
-    labelField: title
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The title of the section
-      - type: boolean
-        name: show_recent
-        label: Show recent posts
-        description: >-
-          Show the specified number of recent posts. Should not be used with
-          author and category filters.
-        default: false
-        required: true
-      - type: number
-        name: recent_count
-        label: Number of recent posts to show
-      - type: reference
-        name: author
-        label: Author Filter
-        description: Filter posts by an author
-        models:
-          - person
-      - type: reference
-        name: category
-        label: Category Filter
-        description: Filter posts by category
-        models:
-          - category
   contact_section:
     type: object
     label: Contact Section
