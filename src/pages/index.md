@@ -21,9 +21,7 @@ sections:
     tools:
       - title: abap-metrics-provider
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+          Let's you use predefined or custom metrics to monitor your abap stack with a monitoring tool of your choice.
         align: left
         image: images/abap-metrics-provider.png
         image_alt: tool 1 placeholder image
@@ -34,9 +32,7 @@ sections:
             style: secondary
       - title: abap-log-exporter
         content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+          Exports SAP Netweaver logs to a log system of your choice.
         align: left
         image: images/abap-log-exporter.png
         image_alt: tool 2 placeholder image
@@ -47,9 +43,7 @@ sections:
             style: secondary
       - title: abap-trace-tender
         content: >-
-          Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus
-          eget nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in
-          ante.
+          For instrumenting programs and send traces to a tracing platform
         align: left
         image: images/abap-trace-tender.png
         image_alt: tool 3 placeholder image
