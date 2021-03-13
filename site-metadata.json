@@ -7,7 +7,17 @@
             {
                 "label": "abap-metrics-provider",
                 "url": "/abap-metrics-provider",
-                "style": "link"
+                "style": "link",
+                "subHeader": {
+                    "has_nav": true,
+                    "nav_links":[
+                        {
+                            "label": "docs",
+                            "url": "/abap-metrics-provider/docs",
+                            "style": "link"
+                        }
+                    ]
+                }
             },
             {
                 "label": "abap-log-exporter",
