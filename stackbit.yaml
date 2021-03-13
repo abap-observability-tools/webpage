@@ -201,6 +201,7 @@ models:
             - hero_section
             - team_section
             - video
+            - under_construction
   contact_section:
     type: object
     label: Contact Section
@@ -441,3 +442,7 @@ models:
         name: url
         label: URL
         required: true
+  under_construction:
+    type: object
+    label: under construction
+    labelField: label
