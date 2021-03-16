@@ -10,24 +10,6 @@ pagesDir: src/pages
 pageLayoutKey: template
 logicFields:
   - hero_section.background.background_image_opacity
-pageData:
-  - pagePath: /
-    initialExpandedPaths:
-      - '[0]'
-      - '[0].fields.title'
-      - '[0].fields.sections'
-      - '[0].fields.sections.items[0]'
-      - '[0].fields.sections.items[0].fields.title'
-      - '[0].fields.sections.items[0].fields.content'
-      - '[0].fields.sections.items[1]'
-      - '[0].fields.sections.items[1].fields.title'
-      - '[0].fields.sections.items[1].fields.subtitle'
-      - '[0].fields.sections.items[1].fields.tools'
-      - '[0].fields.sections.items[0].fields.actions'
-      - '[0].fields.sections.items[0].fields.actions.items[0]'
-      - '[0].fields.sections.items[0].fields.actions.items[0].fields.label'
-      - '[1]'
-      - '[1].fields.palette'
 models:
   config:
     type: config
