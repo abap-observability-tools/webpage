@@ -6,11 +6,13 @@ import ImageSection from './ImageSection';
 import ToolsSection from './ToolsSection';
 import Footer from './Footer';
 import Header from './Header';
+import SubHeader from './SubHeader';
 import HeroSection from './HeroSection';
 import SectionActions from './SectionActions';
 import TeamSection from './TeamSection';
 import Layout from './Layout';
 import Video from './Video';
+import UnderConstruction from './UnderConstruction';
 
 export {
     Action,
@@ -21,11 +23,13 @@ export {
     ToolsSection,
     Footer,
     Header,
+    SubHeader,
     HeroSection,
     SectionActions,
     TeamSection,
     Layout,
-    Video
+    Video,
+    UnderConstruction
 };
 
 export default {
@@ -37,9 +41,11 @@ export default {
     ToolsSection,
     Footer,
     Header,
+    SubHeader,
     HeroSection,
     SectionActions,
     TeamSection,
     Layout,
-    Video
+    Video,
+    UnderConstruction
 };

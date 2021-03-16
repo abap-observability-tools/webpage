@@ -5,6 +5,7 @@ import _ from 'lodash';
 import {withPrefix} from '../utils';
 import '../sass/main.scss';
 import Header from './Header';
+import SubHeader from './SubHeader';
 import Footer from './Footer';
 
 export default class Body extends React.Component {
@@ -22,6 +23,7 @@ export default class Body extends React.Component {
                 </Helmet>
                 <div id="site-wrap" className="site">
                   <Header {...this.props} />
+                  <SubHeader {...this.props} />
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>
