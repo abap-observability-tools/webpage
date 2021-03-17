@@ -21,7 +21,7 @@
     "gatsby-plugin-react-helmet": "4.1.0",
     "gatsby-plugin-sass": "4.0.2",
     "gatsby-source-filesystem": "3.1.0",
-    "gatsby-transformer-remark": "3.0.0",
+    "gatsby-transformer-remark": "3.1.0",
     "js-yaml": "^4.0.0",
     "lodash": "^4.17.21",
     "marked": "^2.0.1",
