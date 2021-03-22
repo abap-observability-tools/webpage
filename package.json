@@ -8,7 +8,9 @@
     "start": "npm run develop",
     "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
-    "deploy": "rm -rf node_modules/.cache/gh-pages && npm run build && gh-pages -d public -b public"
+    "deploy": "rm -rf node_modules/.cache/gh-pages && npm run build && gh-pages -d public -b public",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js"
   },
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
@@ -38,6 +40,15 @@
     "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.2",
+    "@typescript-eslint/eslint-plugin": "4.18.0",
+    "@typescript-eslint/parser": "4.18.0",
+    "eslint": "7.22.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "gh-pages": "3.1.0",
+    "prettier": "2.2.1",
+    "typescript": "4.2.3"
   }
 }
