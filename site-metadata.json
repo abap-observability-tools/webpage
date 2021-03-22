@@ -15,6 +15,11 @@
                             "label": "docs",
                             "url": "/abap-metrics-provider/docs",
                             "style": "link"
+                        },
+                        {
+                            "label": "blog",
+                            "url": "/abap-metrics-provider/blog",
+                            "style": "link"
                         }
                     ]
                 }

@@ -12,7 +12,9 @@ export default class SubHeader extends React.Component {
       "pageContext.site.siteMetadata.header.nav_links",
       null
     );
-    const subHeader = _.find(navs, { url: uri });
+    const urlParts = uri.split("/");
+    const urlFirstPath = `/${urlParts[1]}`;
+    const subHeader = _.find(navs, { url: urlFirstPath });
     const navLinks = _.get(subHeader, "subHeader.nav_links", null);
     return (
       <div>
