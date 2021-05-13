@@ -36,7 +36,7 @@
     "react-html-parser": "^2.0.2",
     "react-player": "^2.9.0",
     "rehype-react": "^6.2.0",
-    "sass": "1.32.12",
+    "sass": "1.32.13",
     "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
