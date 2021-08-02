@@ -35,7 +35,7 @@
     "react-helmet": "^6.1.0",
     "react-html-parser": "^2.0.2",
     "react-player": "^2.9.0",
-    "rehype-react": "^6.2.0",
+    "rehype-react": "^6.2.1",
     "sass": "1.37.0",
     "sprintf-js": "^1.1.2"
   },
