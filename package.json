@@ -29,7 +29,7 @@
     "marked": "^3.0.8",
     "moment": "^2.29.1",
     "moment-strftime": "^0.5.0",
-    "postcss": "8.3.6",
+    "postcss": "8.3.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
@@ -40,7 +40,7 @@
     "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
-    "@types/react": "17.0.15",
+    "@types/react": "17.0.33",
     "@types/react-dom": "17.0.9",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.29.0",
