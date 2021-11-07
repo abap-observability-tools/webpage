@@ -19,7 +19,7 @@
     "fs-extra": "^10.0.0",
     "gatsby": "4.1.0",
     "gatsby-plugin-csp": "1.1.3",
-    "gatsby-plugin-postcss": "5.0.0",
+    "gatsby-plugin-postcss": "5.1.0",
     "gatsby-plugin-react-helmet": "5.0.0",
     "gatsby-plugin-sass": "5.1.0",
     "gatsby-source-filesystem": "4.1.0",
